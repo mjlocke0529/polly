@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  h1= title
+  form#form
+    .form-group
+      label(for='email') Text:
+      input#text.form-control(type='text' name='text')
+    .form-group
+      label(for='pwd') Voice:
+      select#voice.form-control(type='text' name='voice')
+        option Geraint
+        option Gwyneth
+        option Mads
+        option Naja
+        option Hans
+        option Marlene
+        option Nicole
+        option Russell
+        option Amy
+        option Brian
+        option Emma
+        option Raveena
+        option Ivy
+        option Joanna
+        option Joey
+        option Justin
+        option Kendra
+        option Kimberly
+        option Salli
+        option Conchita
+        option Enrique
+    button.btn.btn-default(type='submit') Submit
